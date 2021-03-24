@@ -1,18 +1,5 @@
-/* css */
+@charset "UTF-8";
 
-.show-em,
-.show-rem{
-  display:block;
-  width: 100px;
-  height:100px;
-  float:left;
-  background-color: pink;
-  border:1em solid fuchsia;
-}
-.show-rem{
-  background-color: yellow;
-  border:1rem solid fuchsia;
-}
-.small-text{
-  font-size: 12px;
+body{
+  background-color: #fafafa;
 }
