@@ -90,19 +90,48 @@
       </div><!--/grid-row-->
 
       <div class="grid-row grid-gap">
-         <div class="tablet:grid-col-6">
+         <div class="tablet:grid-col">
            <h2 class="">
              Some accordions
            </h2>
-           <div class="usa-accordion usa-accordion--bordered">
+
+           <div class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
+             <h3 class="usa-accordion__heading">
+               <button class="usa-accordion__button"
+                 aria-expanded="false"
+                 aria-controls="a01">
+                 Step one info
+               </button>
+             </h3><!-- heading -->
+             <div id="a01" class="usa-accordion__content">
+               <img alt="dinosaur and robin portrait" src="./assets/img/dino.jpg"/>
+             </div><!-- content -->
              <h3 class="usa-accordion__heading">
                <button class="usa-accordion__button"
                  aria-expanded="true"
-                 aria-controls="frisk01">
-                 Additional info
+                 aria-controls="a02">
+                 Step two info
                </button>
              </h3><!-- heading -->
-             <div id="frisk01" class="usa-accordion__content">
+             <div id="a02" class="usa-accordion__content">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                 sed do eiusmod tempor incididunt ut labore et dolore magna
+                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                 ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                 aute irure dolor in reprehenderit in voluptate velit esse
+                 cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                 occaecat cupidatat non proident, sunt in culpa qui
+                 officia deserunt mollit anim id est laborum.
+               </p>
+             </div><!-- content -->
+             <h3 class="usa-accordion__heading">
+               <button class="usa-accordion__button"
+                 aria-expanded="true"
+                 aria-controls="a03">
+                 Step three info
+               </button>
+             </h3><!-- heading -->
+             <div id="a03" class="usa-accordion__content">
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                  sed do eiusmod tempor incididunt ut labore et dolore magna
                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -116,9 +145,6 @@
            </div> <!--/usa-accordion-->
            <p>Lorem ipsum dolor sit amet.
            </p>
-         </div><!--/grid-col-->
-         <div class="grid-col">
-           <img alt="dinosaur and robin portrait" src="./assets/img/dino.jpg"/>
          </div><!--/grid-col-->
          <div class="tablet:grid-col-2">
            <p>Lorem ipsum dolor sit amet.
